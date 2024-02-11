@@ -1,0 +1,135 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7c73a5;
+}
+
+.head29 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: fadeInDown 1s ease-out; 
+}
+
+.flex29 {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+
+.lit29 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lit29 li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.lit29 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.lit29 a:hover {
+    color: #ffcc00; /* Change color on hover */
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.form29 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    text-align: center;
+    
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer{
+    
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+
+.sub{
+    background-color:lightgreen;
+    padding: 2px;
+    border-radius: 20px;
+    color: white;
+    animation: fadeInDown 1s ease-out;
+}
+
+.sub:hover{
+    background-color: aquamarine;
+}
+    
+#courseList {
+    display: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: goldenrod;
+    color: blueviolet;
+}
+
+.glow29 {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff6d70, #72e1f3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: glow 5s infinite alternate;
+}
+
+.glow29 p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 10px #ff6d70;
+    }
+    to {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 20px #72e1f3;
+    }
+}
+
+
